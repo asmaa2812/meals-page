@@ -1,0 +1,142 @@
+/* general-tools */
+body
+{
+    font-family: 'Dancing Script', cursive;
+    overflow-x: hidden;
+}
+
+/* side-navbar */
+.ul-list
+{
+    height: 100vh;
+    width: 200px;
+}
+.ul-list li
+{
+    list-style: none;
+    line-height: 3rem;
+}
+.link1 a,.link2 a,.link3 a,.link4 a,.link5 a,.link6 a
+{
+    text-decoration: none;
+    color: white !important;
+}
+.part-2
+{
+    width: 50px;
+    background-color:rgba(0,0,0,0.5) ;
+    box-shadow: 4px 0px 10px red;
+}
+
+.part-2 img
+{
+    width: 30px;
+}
+.part-2 .bar
+{
+    position: fixed;
+    top: 50%;
+}
+.part-2 .tags
+{
+    position: fixed;
+    top: 88%;
+}
+.side
+{
+    display: flex;
+/* height: 100vh;     */
+    position: fixed;
+    top: 0px;
+    left:-200px;
+    bottom: 0px;
+    z-index: 999;
+}
+/* home */
+.item
+{
+    background-image:url('../images/mainBg.jpg') ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.item1{
+    box-shadow: 5px 5px 7px red;
+    position: static;
+    opacity: 0.8;
+    transition: all 0.7s ;
+}
+.item1:hover
+{
+    box-shadow: -5px -5px 7px red;
+}
+/* search */
+.search
+{
+    height: 100vh;
+    display: none;
+}
+.search input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid rgb(243, 139, 139);
+    border-radius: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.search input:focus
+{
+    background-color: transparent;
+    border: none !important;
+}
+.search input:hover
+{
+    box-shadow: -3px -3px 3px rgb(243, 139, 139);
+    border: none;
+}
+.search input::placeholder
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* ingrediants */
+.icon p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon i
+{
+    color:  #9ee650ab;;
+}
+/* contact */
+.contact
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33,37,41);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+}
+.contact input
+{
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgba(255,255,255,0.7);
+    box-shadow: 0px 8px 16px 0px rgba(255,255,255,0.1);
+    
+}
+.contact button
+{
+    width: 80px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(245, 28, 28);
+}
